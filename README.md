@@ -29,7 +29,7 @@ npm install --save grakn-api
 
 Is as simple as
 ```javascript
-const grakn = require('grakn-api')
+const grakn = require('grakn-api')()
 grakn.execute('match isa person has name $name; get;')
   .then(res => console.log(res)) // Do what you want with the response
   .catch(err => console.error(err)
