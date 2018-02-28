@@ -13,11 +13,11 @@ To reflect this into this app you must change these environment variables:
 * `GRAKN_PORT`
 * `GRAKN_KEYSPACE`
 
-Or provide different values in the `options` argument, see [options]().
+Or provide different values in the `options` argument, see [options](https://github.com/SetaSouto/grakn-api#options).
 
 By default the *protocol* used is `http` (to work on localhost) but if you
 want to use `https` you should change the environment variable `NODE_ENV` to `production` or
-the correspondent option, see [options]().
+the correspondent option, see [options](https://github.com/SetaSouto/grakn-api#options).
 
 ### Installation
 
