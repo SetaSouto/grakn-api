@@ -1,6 +1,6 @@
 {
   "name": "grakn-api",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Alternative grakn package to communicate in a simple way to the grakn API.",
   "main": "index.js",
   "scripts": {
